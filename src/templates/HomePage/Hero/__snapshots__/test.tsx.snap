@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero /> should render the Hero 1`] = `
+.c2 {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  z-index: -1;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+}
+
+.c1 {
+  margin: auto;
+  max-width: 192rem;
+  position: relative;
+}
+
+.c3 {
+  top: 35%;
+  width: 100%;
+  position: absolute;
+}
+
+.c4 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 6.2rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.c5 {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width:1920px) {
+  .c2 {
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .c1 {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width:1920px) {
+  .c4 {
+    border-radius: 2rem;
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+    >
+      <div
+        style="box-sizing: border-box; display: block; max-width: 100%;"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+        />
+      </div>
+      <img
+        alt="Universe image"
+        class="c2"
+        data-nimg="intrinsic"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+      <noscript />
+    </div>
+  </div>
+  <div
+    class="c3"
+  >
+    <h1
+      class="c4"
+    >
+      Lorem ipsum dolor sit amet
+    </h1>
+    <p
+      class="c5"
+    >
+      Ut enim ad minim veniam
+    </p>
+  </div>
+</section>
+`;
