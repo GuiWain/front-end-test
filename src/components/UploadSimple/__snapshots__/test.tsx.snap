@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadSimple /> should render the UploadSimple 1`] = `
+.c0 {
+  background: transparent;
+}
+
+.c1 {
+  background-color: #FFFFFF;
+  border: 0.1rem solid #CCC8C8;
+  border-radius: 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.c2 {
+  font: normal normal 400 1.4rem / 2.8rem 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  color: #9D9D9D;
+  -webkit-letter-spacing: 0rem;
+  -moz-letter-spacing: 0rem;
+  -ms-letter-spacing: 0rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.c3 {
+  display: none;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      No file selected
+    </span>
+    <input
+      accept="application/pdf, application/msword, application/vnd.ms-excel, image/*"
+      class="c3"
+      multiple=""
+      type="file"
+    />
+  </div>
+</div>
+`;
