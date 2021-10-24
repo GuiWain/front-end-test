@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render Button by default 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  color: #FFFFFF;
+  font-family: 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  height: 3.6rem;
+  padding: 0.9rem 4.4rem;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 0rem;
+  -moz-letter-spacing: 0rem;
+  -ms-letter-spacing: 0rem;
+  letter-spacing: 0rem;
+  background: #510161 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.4rem 0.8rem #00000014;
+  border: none;
+}
+
+.c0:hover {
+  background: #8802A3 0% 0% no-repeat padding-box;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+<button
+  class="c0"
+>
+  Click
+</button>
+`;
