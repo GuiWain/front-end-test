@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Base /> should render the Base 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 8rem auto 0;
+  max-width: 100%;
+}
+
+.c1 {
+  max-width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    data-testid="Mock Menu"
+  />
+  <div
+    class="c1"
+  >
+    <div>
+      <h1>
+        Heading
+      </h1>
+    </div>
+  </div>
+  <div
+    data-testid="Mock Footer"
+  />
+</div>
+`;
