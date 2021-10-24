@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputSearch /> should render the InputSearch 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.1rem solid #CCC8C8;
+  border-radius: 0.4rem;
+  padding: 0;
+  height: 3.6rem;
+}
+
+.c0:focus-within {
+  box-shadow: 0rem 0.4rem 0.6rem #00000014;
+  border: 0.1rem solid #3241A1;
+}
+
+.c3 {
+  color: #4F4C4C;
+  font: normal normal 400 1.4rem / 2.8rem 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  padding: 0.8rem 0.8rem;
+  background: transparent;
+  border: 0;
+  outline: none;
+  width: calc(100% - 2.2rem);
+}
+
+.c3:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 2.4 #eaeaea inset;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 4.4rem;
+  cursor: pointer;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  background: #3241A1 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+}
+
+.c1 > svg {
+  width: 1.8rem;
+  height: 100%;
+}
+
+<div
+  class=""
+  data-testid="Wrapper"
+>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="DivIcon"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2 "
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.545 15.467l-3.779-3.779a6.15 6.15 0 00.898-3.21c0-3.417-2.961-6.377-6.378-6.377A6.185 6.185 0 002.1 8.287c0 3.416 2.961 6.377 6.377 6.377a6.15 6.15 0 003.115-.844l3.799 3.801a.953.953 0 001.346 0l.943-.943c.371-.371.236-.84-.135-1.211zM4.004 8.287a4.282 4.282 0 014.282-4.283c2.366 0 4.474 2.107 4.474 4.474a4.284 4.284 0 01-4.283 4.283c-2.366-.001-4.473-2.109-4.473-4.474z"
+        />
+      </svg>
+    </div>
+    <input
+      class="c3"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
