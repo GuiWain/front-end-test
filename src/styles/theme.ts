@@ -6,11 +6,12 @@ export default {
   font: {
     family: "'Open Sans', 'Roboto', 'Helvetica Neue', sans-serif",
     light: 300,
-    normal: 400,
+    regular: 400,
     semiBold: 600,
     bold: 700,
     extraBold: 800,
     sizes: {
+      smaller: '1.0rem',
       xxxsmall: '1.2rem',
       xxsmall: '1.4rem',
       xsmall: '1.6rem',
@@ -25,24 +26,27 @@ export default {
     }
   },
   colors: {
-    primaryLight: '',
-    primaryMedium: '',
-    primaryDark: '',
-    primaryDarkest: '',
-    secondaryLight: '',
-    secondaryMedium: '',
-    secondaryDark: '',
-    secondaryDarkest: '',
-    mainBg: '#FAFAF2',
-    lightBg: '#FAFAFA',
-    white: '#FFFFFF',
-    black: '#000000',
-    feedbackDark: '#3241A1',
-    feedbackDarkest: '#212E89',
-    successLight: '#12AF46',
+    primaryLight: '#8802A3',
+    primaryMedium: '#510161',
+    secondaryLightest: '#fafafa',
+    secondaryLight: '#CCC8C8',
+    secondaryMedium: '#848080',
+    secondaryDark: '#4F4C4C',
+    secondaryDarkest: '#2D2A2A',
+    infoMedium: '#5663b7',
+    infoDark: '#3241A1',
+    successLight: '#12af46',
     successMedium: '#00A03E',
-    errorLight: '#FB3C1E',
-    errorMedium: '#ED3020'
+    errorLight: '#fb3c1e',
+    errorMedium: '#ed3020',
+    warningMedium: '#e7de1a',
+    warningDark: '#e7b500',
+    neutralLightest: '#F5F5F5',
+    neutralLight: '#E9E9E9',
+    neutralMedium: '#D9D9D9',
+    neutralDark: '#9D9D9D',
+    white: '#FFFFFF',
+    black: '#000000'
   },
   spacings: {
     xxxsmall: '0.5rem',
@@ -55,8 +59,8 @@ export default {
     xxlarge: '5.6rem'
   },
   transition: {
-    slow: '0.7s ease-in-out',
-    default: '0.4s ease-in-out',
-    fast: '0.1s ease-in-out'
+    slow: '1s ease-in-out',
+    default: '0.5s ease-in-out',
+    fast: '0.2s ease-in-out'
   }
 } as const
