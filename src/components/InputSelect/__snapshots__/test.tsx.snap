@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputSelect /> should render the InputSelect 1`] = `
+.c0 {
+  background: transparent;
+  z-index: 999;
+  width: 27rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 27rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.1rem solid #CCC8C8;
+  border-radius: 0.4rem;
+  box-sizing: content-box;
+}
+
+.c1 .c3:first-child:before {
+  border-bottom: none;
+}
+
+.c2 {
+  position: absolute;
+  width: 27rem;
+  max-height: 0;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid #CCC8C8;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c7 {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  width: 27rem;
+  margin: 0;
+  height: 3.6rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+.c7:after {
+  content: '';
+  background: url('/img/arrow-left-input-select.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 1.2rem;
+  width: 1.2rem;
+  right: 1rem;
+  top: 40%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.c4 {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  margin: 0;
+  padding: 0 1.5rem;
+  font: normal normal 400 1.4rem / 2.4rem 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  text-align: left;
+  color: #848080;
+  cursor: pointer;
+  display: block;
+}
+
+.c4:before {
+  content: '';
+  display: block;
+  margin: 0.9rem auto;
+  width: 100%;
+  border-bottom: 0.1rem solid #CCC8C8;
+}
+
+.c5 {
+  display: none;
+}
+
+.c8 {
+  font: normal normal 400 1.4rem / 2.4rem 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  -webkit-letter-spacing: -0.006rem;
+  -moz-letter-spacing: -0.006rem;
+  -ms-letter-spacing: -0.006rem;
+  letter-spacing: -0.006rem;
+  text-align: left;
+  color: #848080;
+}
+
+.c6 {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      data-testid="OptionsContainer"
+    >
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Acre - AC"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Acre - AC"
+        >
+          Acre - AC
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Alagoas - AL"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Alagoas - AL"
+        >
+          Alagoas - AL
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Amapá - AP"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Amapá - AP"
+        >
+          Amapá - AP
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Amazonas - AM"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Amazonas - AM"
+        >
+          Amazonas - AM
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Bahia - BA"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Bahia - BA"
+        >
+          Bahia - BA
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Ceará - CE"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Ceará - CE"
+        >
+          Ceará - CE
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Distrito federal - DF"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Distrito federal - DF"
+        >
+          Distrito federal - DF
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Espiríto Santo - ES"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Espiríto Santo - ES"
+        >
+          Espiríto Santo - ES
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Goiás - GO"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Goiás - GO"
+        >
+          Goiás - GO
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Maranhão - MA"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Maranhão - MA"
+        >
+          Maranhão - MA
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Mato Grosso - MT"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Mato Grosso - MT"
+        >
+          Mato Grosso - MT
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Mato Grosso do Sul - MS"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Mato Grosso do Sul - MS"
+        >
+          Mato Grosso do Sul - MS
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Minas Gerais - MG"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Minas Gerais - MG"
+        >
+          Minas Gerais - MG
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Pará - PA"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Pará - PA"
+        >
+          Pará - PA
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Paraíba - PB"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Paraíba - PB"
+        >
+          Paraíba - PB
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Paraná - PR"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Paraná - PR"
+        >
+          Paraná - PR
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Pernambuco - PE"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Pernambuco - PE"
+        >
+          Pernambuco - PE
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Piauí - PI"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Piauí - PI"
+        >
+          Piauí - PI
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Rio de Janeiro - RJ"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Rio de Janeiro - RJ"
+        >
+          Rio de Janeiro - RJ
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Rio Grande do Norte - RN"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Rio Grande do Norte - RN"
+        >
+          Rio Grande do Norte - RN
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Rio Grande do Sul - RS"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Rio Grande do Sul - RS"
+        >
+          Rio Grande do Sul - RS
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Rondônia - RO"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Rondônia - RO"
+        >
+          Rondônia - RO
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Roraima - RR"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Roraima - RR"
+        >
+          Roraima - RR
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Santa Catarina - SC"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Santa Catarina - SC"
+        >
+          Santa Catarina - SC
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="São Paulo - SP"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="São Paulo - SP"
+        >
+          São Paulo - SP
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Sergipe - SE"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Sergipe - SE"
+        >
+          Sergipe - SE
+        </label>
+      </div>
+      <div
+        class="c3 c4"
+      >
+        <input
+          class="c5"
+          id="Tocantins - TO"
+          type="radio"
+        />
+        <label
+          class="c6"
+          for="Tocantins - TO"
+        >
+          Tocantins - TO
+        </label>
+      </div>
+    </div>
+    <div
+      class="c7"
+      data-testid="Selected"
+    >
+      <span
+        class="c8"
+      >
+        Selecione...
+      </span>
+    </div>
+  </div>
+</div>
+`;
