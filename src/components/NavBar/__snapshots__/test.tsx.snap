@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> should render the NavBar 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.c2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #848080;
+  text-align: center;
+  margin: 0 1rem;
+  cursor: pointer;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.c2:hover {
+  color: #4F4C4C;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    height: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  .c1 {
+    height: 100%;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      Link 1
+    </li>
+    <li
+      class="c2"
+    >
+      Link 2
+    </li>
+    <li
+      class="c2"
+    >
+      Link 3
+    </li>
+    <li
+      class="c2"
+    >
+      Link 4
+    </li>
+    <li
+      class="c2"
+    >
+      Link 5
+    </li>
+    <li
+      class="c2"
+    >
+      Link 6
+    </li>
+  </ul>
+</nav>
+`;
