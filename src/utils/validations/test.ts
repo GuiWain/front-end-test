@@ -49,7 +49,7 @@ describe('validations', () => {
 
     it('should return invalid email error', () => {
       const values = {
-        name: 'atus',
+        name: 'name',
         email: 'invalid-email',
         password: ''
       }
