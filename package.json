@@ -14,12 +14,15 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "framer-motion": "^4.1.17",
+    "joi": "^17.4.2",
     "next": "11.1.2",
     "next-pwa": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.3",
-    "styled-icons": "^10.45.0"
+    "styled-icons": "^10.45.0",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
