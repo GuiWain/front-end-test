@@ -121,7 +121,7 @@ export const SelectBox = styled.div`
 `
 
 const optionsContainerModifier = {
-  active: (theme: DefaultTheme) => css`
+  active: () => css`
     box-shadow: 0rem 0.4rem 0.8rem #00000014;
 
     max-height: 25rem;
@@ -150,12 +150,12 @@ export const OptionsContainer = styled.div.attrs({
 
     order: 1;
 
-    ${active && optionsContainerModifier.active(theme)}
+    ${active && optionsContainerModifier.active()}
   `}
 `
 
 const selectedModifier = {
-  active: (theme: DefaultTheme) => css`
+  active: () => css`
     box-shadow: 0rem 0.4rem 0.8rem #00000014;
     &:after {
       transform: rotateX(180deg);
@@ -197,7 +197,7 @@ export const Selected = styled.div.attrs({
 
       transition: all ${theme.transition.default};
     }
-    ${active && selectedModifier.active(theme)}
+    ${active && selectedModifier.active()}
   `}
 `
 
