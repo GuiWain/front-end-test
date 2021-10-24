@@ -144,7 +144,7 @@ describe('<TextField />', () => {
     render(<TextField type="password" label="Password" name="TextField" />)
 
     const inputPassword = screen.getByLabelText(/Password/i)
-    const password = 'atus123456'
+    const password = 'password123456'
     userEvent.type(inputPassword, password)
 
     userEvent.click(screen.getByTestId('eye-slash-icon'))
