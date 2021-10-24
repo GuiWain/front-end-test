@@ -2,6 +2,8 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from '../src/styles/global'
 import theme from '../src/styles/theme'
 
+import * as nextImage from 'next/image'
+
 export const parameters = {
   backgrounds: {
     default: 'zerometer-light',
@@ -26,3 +28,8 @@ export const decorators = [
     </ThemeProvider>
   )
 ]
+
+Object.defineProperty(nextImage, 'default', {
+  configurable: true,
+  value: props => <img {...props} />
+});
