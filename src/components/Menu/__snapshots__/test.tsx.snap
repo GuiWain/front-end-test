@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should render the default Menu 1`] = `
+.c6 {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.c2 {
+  width: 8rem;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 {
+  width: 100%;
+}
+
+.c13 {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.c14 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #848080;
+  text-align: center;
+  margin: 0 1rem;
+  cursor: pointer;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.c14:hover {
+  color: #4F4C4C;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.c17 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  color: #FFFFFF;
+  font-family: 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  height: 3.6rem;
+  padding: 0.9rem 4.4rem;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 0rem;
+  -moz-letter-spacing: 0rem;
+  -ms-letter-spacing: 0rem;
+  letter-spacing: 0rem;
+  background: #510161 0% 0% no-repeat padding-box;
+  box-shadow: 0rem 0.4rem 0.8rem #00000014;
+  border: none;
+}
+
+.c17:hover {
+  background: #8802A3 0% 0% no-repeat padding-box;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+.c20 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.6rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  color: #FFFFFF;
+  font-family: 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  height: 3.6rem;
+  padding: 0.9rem 4.4rem;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 0rem;
+  -moz-letter-spacing: 0rem;
+  -ms-letter-spacing: 0rem;
+  letter-spacing: 0rem;
+  color: #2D2A2A;
+  background: transparent 0% 0% no-repeat padding-box;
+  border: 0.2rem solid #510161;
+  box-shadow: 0rem 0.4rem 0.8rem #00000014;
+}
+
+.c20:hover {
+  color: #FFFFFF;
+  border-color: #8802A3;
+  background: #8802A3 0% 0% no-repeat padding-box;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7.5rem;
+  background-color: #FFFFFF;
+  z-index: 999;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.c1 {
+  width: 100%;
+  height: 7.5rem;
+  display: grid;
+  grid-template-columns: 18% 60% 22%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  width: 7rem;
+  margin-left: 2rem;
+}
+
+.c12 {
+  justify-self: flex-end;
+}
+
+.c16 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c19 {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+}
+
+.c22 {
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.c9 {
+  display: none;
+}
+
+@media (max-width:1024px) {
+  .c10 {
+    height: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  .c13 {
+    height: 100%;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width:1024px) {
+  .c0 .c3 {
+    width: 6rem;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .c0 .c8 {
+    position: fixed;
+    top: 1.4rem;
+    right: 1rem;
+    display: block;
+    width: 4rem;
+    cursor: pointer;
+  }
+
+  .c0 .c15 {
+    visibility: 0;
+    overflow: hide;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 9rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .c0 .c18 {
+    visibility: 0;
+    overflow: hide;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .c0 .c21 {
+    visibility: 0;
+    overflow: hide;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .c0 .c11 {
+    justify-self: center;
+    visibility: 0;
+    overflow: hide;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 16rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .c0 .c11 ul,
+  .c0 .c11 li {
+    pointer-events: none;
+  }
+}
+
+@media (min-width:1920px) {
+  .c1 {
+    width: 70%;
+    margin: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:1366px) {
+  .c4 {
+    width: 9rem;
+  }
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2 c3 c4"
+      data-testid="Wrapper"
+    >
+      <span
+        class="c5"
+      >
+        <div
+          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="box-sizing: border-box; display: block; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+            />
+          </div>
+          <img
+            alt="Logo Lorem Ipsum"
+            class="c6"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </div>
+      </span>
+    </div>
+    <svg
+      aria-hidden="true"
+      class="c7 c8 c9"
+      data-testid="MenuIcon"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M88 152h336M88 256h336M88 360h336"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-miterlimit="10"
+        stroke-width="48"
+      />
+    </svg>
+    <nav
+      class="c10 c11 c12"
+    >
+      <ul
+        class="c13"
+      >
+        <li
+          class="c14"
+        >
+          Link 1
+        </li>
+        <li
+          class="c14"
+        >
+          Link 2
+        </li>
+        <li
+          class="c14"
+        >
+          Link 3
+        </li>
+        <li
+          class="c14"
+        >
+          Link 4
+        </li>
+        <li
+          class="c14"
+        >
+          Link 5
+        </li>
+        <li
+          class="c14"
+        >
+          Link 6
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="c15 c16"
+    >
+      <button
+        class="c17 c18 c19"
+      >
+        Sign In
+      </button>
+      <button
+        class="c20 c21 c22"
+      >
+        Sign Up
+      </button>
+    </div>
+  </div>
+</header>
+`;
