@@ -1,7 +1,5 @@
-const IndexPage = () => (
-  <>
-    <h1>Hello Next.js 👋</h1>
-  </>
-)
+import HomePage from 'templates/HomePage'
+
+const IndexPage = () => <HomePage />
 
 export default IndexPage
