@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> should render the TextArea 1`] = `
+.c0 {
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .c1 {
+  resize: none;
+}
+
+.c2 {
+  margin: 0;
+  font: normal normal 400 1.4rem / 2.8rem 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  color: #4F4C4C;
+  padding: 1rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.1rem solid #CCC8C8;
+  border-radius: 0.4rem;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.c2:placeholder {
+  font: normal normal 400 1.4rem / 2.8rem 'Open Sans','Roboto','Helvetica Neue',sans-serif;
+  -webkit-letter-spacing: 0rem;
+  -moz-letter-spacing: 0rem;
+  -ms-letter-spacing: 0rem;
+  letter-spacing: 0rem;
+  color: #CCC8C8;
+  padding: 2rem;
+}
+
+.c2:focus {
+  outline: none;
+  border: 0.2rem solid #510161;
+  -webkit-transition: border 0.2s linear;
+  transition: border 0.2s linear;
+}
+
+.c2:focus-within {
+  box-shadow: 0rem 0.4rem 0.6rem #00000014;
+  border: 0.1rem solid #3241A1;
+}
+
+<div
+  class="c0"
+>
+  <textarea
+    class="c1 c2"
+    data-testid="TextArea"
+    rows="5"
+  />
+</div>
+`;
