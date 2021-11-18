@@ -31,5 +31,5 @@ export const decorators = [
 
 Object.defineProperty(nextImage, 'default', {
   configurable: true,
-  value: props => <img {...props} />
+  value: props => <img {...props} style={{objectFit: 'contain', height: 'auto'}} />
 });
