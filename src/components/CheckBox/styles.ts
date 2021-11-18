@@ -62,7 +62,7 @@ export const Label = styled.label`
 
 export const Error = styled.p`
   ${({ theme }) => css`
-    color: ${theme.colors.errorMedium};
+    color: ${theme.colors.errorLight};
     font-size: ${theme.font.sizes.xxxsmall};
     margin: 0.5rem 0;
   `}

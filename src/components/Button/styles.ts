@@ -4,14 +4,24 @@ import { ButtonProps } from '.'
 
 export type WrapperProps = {
   hasIcon?: boolean
-} & Pick<ButtonProps, 'size' | 'fullWidth' | 'bg' | 'border'>
+} & Pick<ButtonProps, 'size' | 'fullWidth' | 'bg' | 'border' | 'iconPosition'>
 
 export const Wrapper = styled.button<WrapperProps>`
-  ${({ theme, size, fullWidth, hasIcon, bg, border, disabled }) => css`
+  ${({
+    theme,
+    size,
+    fullWidth,
+    hasIcon,
+    iconPosition,
+    bg,
+    border,
+    disabled
+  }) => css`
     display: inline-flex;
     align-items: center;
     gap: 0.6rem;
     justify-content: center;
+    flex-direction: ${iconPosition === 'left' ? 'row' : 'row-reverse'};
 
     text-decoration: none;
     cursor: pointer;

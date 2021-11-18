@@ -12,6 +12,12 @@ export default {
     icon: {
       type: ''
     },
+    iconPosition: {
+      control: {
+        type: 'radio',
+        options: ['left', 'right']
+      }
+    },
     size: {
       control: {
         type: 'radio',

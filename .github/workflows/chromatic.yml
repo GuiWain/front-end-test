@@ -1,11 +1,11 @@
-name: ci
+name: chromatic
 on: [pull_request]
 
 jobs:
-  build:
+  chromatic-deployment:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -18,6 +18,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Typecheck
-        run: yarn typecheck
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        with:
+          projectToken: 92222b5fb62f
+
 

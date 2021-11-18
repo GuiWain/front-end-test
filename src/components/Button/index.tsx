@@ -18,6 +18,7 @@ export type ButtonProps = {
   border?: 'info' | 'success' | 'error' | 'warning'
   fullWidth?: boolean
   icon?: JSX.Element
+  iconPosition?: 'left' | 'right'
   as?: React.ElementType
 } & ButtonTypes
 
@@ -25,6 +26,7 @@ const Button: React.ForwardRefRenderFunction<S.WrapperProps, ButtonProps> = (
   {
     children,
     icon,
+    iconPosition = 'left',
     size = 'medium',
     fullWidth = false,
     bg = 'normal',
@@ -37,6 +39,7 @@ const Button: React.ForwardRefRenderFunction<S.WrapperProps, ButtonProps> = (
     size={size}
     fullWidth={fullWidth}
     hasIcon={!!icon}
+    iconPosition={iconPosition}
     bg={bg}
     border={border}
     ref={ref}
