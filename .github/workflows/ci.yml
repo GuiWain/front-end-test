@@ -22,7 +22,7 @@ jobs:
         run: yarn typecheck
 
       - name: Chromatic
-        - run: yarn run chromatic
+        run: yarn run chromatic
         env:
           CHROMATIC_PROJECT_TOKEN: 92222b5fb62f
 
