@@ -1,0 +1,28 @@
+name: ci
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Typecheck
+        run: yarn typecheck
+
+      - name: Chromatic
+        - run: yarn run chromatic
+        env:
+          CHROMATIC_PROJECT_TOKEN: 92222b5fb62f
+
