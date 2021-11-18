@@ -10,8 +10,9 @@
     "test": "jest",
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook",
-    "prepare": "husky install"
+    "build-storybook": "build-storybook -s public",
+    "prepare": "husky install",
+    "chromatic": "npx chromatic --project-token=92222b5fb62f"
   },
   "dependencies": {
     "framer-motion": "^4.1.17",
@@ -42,6 +43,7 @@
     "@typescript-eslint/parser": "^5.1.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^1.13.3",
+    "chromatic": "^6.0.6",
     "dotenv": "^10.0.0",
     "eslint": "^8.1.0",
     "eslint-config-next": "^11.1.2",
