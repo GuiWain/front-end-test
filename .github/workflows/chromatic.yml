@@ -23,9 +23,4 @@ jobs:
         with:
           projectToken: 92222b5fb62f
 
-      - name: Chromatic
-        run: yarn run chromatic
-        env:
-          CHROMATIC_PROJECT_TOKEN: 92222b5fb62f
-
 
